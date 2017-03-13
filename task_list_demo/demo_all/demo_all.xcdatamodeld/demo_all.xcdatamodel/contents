@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="TaskList" representedClassName="TaskList" syncable="YES">
+        <attribute name="tasklist" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tasks" representedClassName="Tasks" syncable="YES">
+        <attribute name="taskdescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tasklist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TaskList" positionX="-45" positionY="0" width="128" height="60"/>
+        <element name="Tasks" positionX="-18" positionY="36" width="128" height="90"/>
+    </elements>
+</model>
